@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lacquer&family=Lato&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -61,4 +62,56 @@ nav ul li a:hover{
   color: white;
   background: #00AEFF;
   border-radius: 32px;
+}
+h1{
+  position: absolute;
+  width: 586px;
+  height: 112px;
+  left: 5.56%;
+  top: 358px;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 56px;
+
+  /* or 112% */
+
+  color: #084482;
+
+  mix-blend-mode: normal;
+}
+.heroParagraph{
+  position: absolute;
+  height: 160px;
+  width: 802px;
+  left: 5.56%;
+  top: 495px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 32px;
+
+  /* or 152% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.heroButton{
+  position: absolute;
+  width: 200px;
+  left: 5.56%;
+  top: 672px;
+  text-align: center;
+  padding: 20px 6px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+
+  background: #00AEFF;
+  border-radius: 55px;
 }
