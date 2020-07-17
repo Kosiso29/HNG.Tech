@@ -74,6 +74,7 @@ nav ul li a.active{
   border: 2px solid;
   border-color: #00AEFF;
   border-radius: 32px;
+  color: #00AEFF;
 }
 nav ul li a:hover{
   color: white;
@@ -422,24 +423,77 @@ img{
     width: calc((579/1600)*100vw);;
     height: calc((117/1600)*100vw);;
     left: calc((108/1600)*100vw);
-    top: 994px;
+    top: 1024px;
   }
   .address{
     position: absolute;
     width: calc((479/1600)*100vw);
     height: calc((146/1600)*100vw);
     left: calc((108/1600)*100vw);
-    top: 1094px;
+    top: 1144px;
   }
   .tel{
     left: calc((837/1600)*100vw);
-    top: 1094px;
+    top: 1144px;
   }
   .contactUs{
-    top: 994px;
+    top: 1024px;
     left: calc((837/1600)*100vw);
     width: 120px;
     padding: 15px 3px;
+  }
+  .footer{
+    height: 204px;
+    top: 1244px;
+  }
+  .footerp{
+    width: calc((937/1600)*100vw);
+    height: 47px;
+    left: 88px;
+  }
+  .footerImg{
+    top: 150px;
+    left: 100px;
+  }
+  .footerImg2{
+    top: 150px;
+    left: 172px;
+  }
+  .footerImg3{
+    top: 150px;
+    left: 244px;
+  }
+  .footerImg4{
+    top: 150px;
+    left: 316px;
+  }
+}
+
+@media (max-width: 900px){
+  nav{
+    height: 106px;
+  }
+  nav img{
+    width: 295px;
+    height: 60px;
+    top: 26px;
+  }
+  .toggle-button{
+    top: 40px;
+    width: 40px;
+    height: 31px;
+  }
+  img{
+    top: 924px;
+  }
+  .address{
+    top: 1094px;
+  }
+  .tel{
+    top: 1094px;
+  }
+  .contactUs{
+    top: 924px;
   }
   .footer{
     height: 254px;
@@ -468,35 +522,7 @@ img{
   }
 }
 
-@media (max-width: 900px){
-  img{
-    top: 924px;
-  }
-  .address{
-    top: 1094px;
-  }
-  .tel{
-    top: 1094px;
-  }
-  .contactUs{
-    top: 924px;
-  }
-}
-
 @media (max-width: 800px){
-  nav{
-    height: 106px;
-  }
-  nav img{
-    width: 295px;
-    height: 60px;
-    top: 26px;
-  }
-  .toggle-button{
-    top: 40px;
-    width: 40px;
-    height: 31px;
-  }
   .heroButton{
     padding: 10px 3px;
     font-size: 12px;
