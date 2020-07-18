@@ -90,7 +90,7 @@ nav ul li a:hover{
 
   background: #E5F7FF;
   background-size: cover;
-  background-image: url(img/support.png);
+  background-image: url("img/support.png");
 }
 .hidden{
   display: none;
