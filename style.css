@@ -151,6 +151,13 @@ h1{
   transform: scale(1.1);
   transition: .5s;
 }
+.mobilebg{
+  width: 100%;
+  height: 150px;
+  display: none;
+  background: url("img/HOMEPAGE2.png");
+  z-index: -5;
+}
 img{
   position: absolute;
   width: 379px;
@@ -588,8 +595,13 @@ img{
 }
 
 @media (max-width: 550px){
+  nav img{
+    width: 200px;
+    height: 50px;
+  }
   img{
     top: 654px;
+    width: 250px;
   }
   .address{
     top: 794px;
@@ -597,5 +609,104 @@ img{
   }
   .tel{
     top: 1024px;
+  }
+}
+@media (max-width: 500px){
+  h1{
+    width: calc((886/1600)*100vw);
+    height: calc((212/1600)*100vw);
+    left: 5.56%;
+    top: calc((228/1600)*100vw);
+    font-size: calc((80/1600)*100vw);
+    line-height: calc((106/1600)*100vw);
+  }
+  .heroParagraph{
+    height: calc((260/1600)*100vw);
+    width: calc((1402/1600)*100vw);
+    left: 5.56%;
+    top: calc((505/1600)*100vw);
+    font-size: calc((41/1600)*100vw);
+    line-height: calc((62/1600)*100vw);
+  }
+  .heroButton{
+    top: calc((772/1600)*100vw);
+  }
+  .heroImage{
+    top: 80px;
+    background-size: cover;
+    height: calc((1724/1600)*100vw)
+  }
+}
+@media (max-width: 450px){
+  .heroImage{
+    height: calc((2024/1600)*100vw)
+  }
+}
+@media (max-width: 400px){
+  h1{
+    width: calc((886/1600)*100vw);
+    height: calc((212/1600)*100vw);
+    left: 5.56%;
+    top: calc((228/1600)*100vw);
+    font-size: calc((80/1600)*100vw);
+    line-height: calc((106/1600)*100vw);
+  }
+  .heroParagraph{
+    height: calc((260/1600)*100vw);
+    width: calc((1402/1600)*100vw);
+    left: 5.56%;
+    top: calc((505/1600)*100vw);
+    font-size: calc((41/1600)*100vw);
+    line-height: calc((62/1600)*100vw);
+  }
+  .heroButton{
+    padding: 8px 3px;
+    font-size: 8px;
+    width: 80px;
+  }
+  .heroImage{
+    height: calc((2224/1600)*100vw)
+  }
+  .footerp{
+    width: calc((1137/1600)*100vw);
+    height: 87px;
+    left: 40px;
+    top: 30px;
+  }
+  .footerImg{
+    top: 180px;
+    left: 50px;
+  }
+  .footerImg2{
+    top: 180px;
+    left: 102px;
+  }
+  .footerImg3{
+    top: 180px;
+    left: 154px;
+  }
+  .footerImg4{
+    top: 180px;
+    left: 206px;
+  }
+}
+@media (max-width: 350px){
+  h1{
+    height: calc((212/1600)*100vw);
+    top: calc((228/1600)*100vw);
+    font-size: calc((90/1600)*100vw);
+    line-height: calc((116/1600)*100vw);
+  }
+  .heroParagraph{
+    height: calc((260/1600)*100vw);
+    top: calc((505/1600)*100vw);
+    font-size: calc((51/1600)*100vw);
+    line-height: calc((72/1600)*100vw);
+  }
+  .heroButton{
+    top: calc((872/1600)*100vw);
+  }
+  .heroImage{
+    height: calc((2484/1600)*100vw)
   }
 }
