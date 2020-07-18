@@ -89,7 +89,7 @@ nav ul li a:hover{
   right: 0px;
   overflow: hidden;
 
-  background-image: url(img/HOMEPAGE.png);
+  background-image: url("img/HOMEPAGE.png");
   background-size: contain;
 }
 h1{
