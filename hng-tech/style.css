@@ -11,7 +11,79 @@ body {
     overflow-x: hidden;
 }
 
+nav{
+  position: absolute;
+  width: 1600px;
+  height: 136px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 
+  background: #FFFFFF;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 40px 40px;
+}
+.toggle-button{
+  position: absolute;
+  top: 50px;
+  right: 177px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+  height: 41px;
+}
+.toggle-button .bar{
+  height: 6px;
+  width: 100%;
+  background-color: #00AEFF;
+  border-radius: 20px;
+}
+nav img{
+  position: absolute;
+  width: 379px;
+  height: 77px;
+  left: 88px;
+  top: 32px;
+}
+nav ul{
+  float: right;
+  margin-right: 117px;
+  margin-top: 58px;
+}
+nav ul li{
+  list-style: none;
+  margin: 0 6px;
+  display: inline-block;
+  line-height: 19px;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 12px 12px;
+
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+
+  /* identical to box height */
+
+  /* 1f1534-hyfen */
+  color: #1F1534;
+  opacity: 0.5;
+}
+nav ul li a.active{
+  border: 2px solid;
+  border-color: #00AEFF;
+  border-radius: 32px;
+  color: #00AEFF;
+}
+nav ul li a:hover{
+  color: white;
+  background: #00AEFF;
+  border-radius: 32px;
+}
 .header {
     width: 100vw;
     height: 20%;
@@ -82,7 +154,7 @@ body {
 
     background: linear-gradient(338.56deg, #24116A -623.68%, #93C1F9 820.38%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
 
 .header .dot13 {
@@ -174,7 +246,7 @@ body {
     height: 6%;
     left: 76%;
     top: 20%;
-    
+
 }
 
 .building .buildingimg4 {
@@ -242,7 +314,7 @@ body {
 
     width: 100vw;
     height: 48%;
-    
+
 }
 
 .internship .internheading{
@@ -276,10 +348,10 @@ body {
 }
 
 .internship .interncard {
-    
+
     width: 22vw;
     height: 354px;
-    
+
 
     background: #FFFFFF;
     /* drop shadow */
@@ -390,7 +462,7 @@ body {
 .footer {
     width: 100vw;
     height: 12%;
-    border: 2px solid #e5e5e5;   
+    border: 2px solid #e5e5e5;
 }
 
 .footer .address {
@@ -474,7 +546,7 @@ body {
 .footerImg4{
     left: 1270px;
 }
-  
+
 .heroimg1 {
     position: absolute;
     left: 26.18%;
@@ -506,7 +578,7 @@ body {
         height: 60px;
         left: 5.56%;
         top: 240px;
-    
+
         font-family: Open Sans;
         font-style: normal;
         font-weight: 600;
@@ -515,100 +587,100 @@ body {
         /* identical to box height, or 200% */
         color: #000000;
     }
-    
+
     .header .line2 {
         position: absolute;
         left: 5.56%;
         right: 50.25%;
         top: 7%;
         bottom: 88.63%;
-    
+
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
         line-height: 40px;
         /* or 112% */
-    
-    
+
+
         color: #084482;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .header .line3 {
         position: absolute;
         left: 5.56%;
         right: 44.31%;
         top: 9.98%;
         bottom: 70.24%;
-    
+
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
         line-height: 20px;
         /* identical to box height, or 152% */
-    
-    
+
+
         color: #000000;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .building {
         width: 100vw;
         height: 17%;
         left: 0px;
         top: 976px;
-    
+
         background: #E5F7FF;
     }
-    
+
     .building .buildinghead {
         position: absolute;
         left: 5.56%;
         right: 64.81%;
         top: 21.61%;
         bottom: 70.67%;
-    
+
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
         line-height: 48px;
         /* or 133% */
-    
+
         justify-content: center;
         color: #084482;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .building .buildingtext {
         position: absolute;
         width: 40%;
         height: 452px;
         left: 88px;
         top: 26%;
-    
+
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
         line-height: 25px;
         text-align: justify;
-    
+
         color: #000000;
     }
-    
+
     .internship {
-    
+
         width: 100vw;
         height: 48%;
-        
+
     }
-    
+
     .internship .internheading{
         font-family: Lato;
         font-style: normal;
@@ -618,12 +690,12 @@ body {
         /* identical to box height, or 112% */
         margin-top: 34px;
         margin-bottom: 52px;
-    
+
         color: #084482;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .firsthead {
         font-family: Open Sans;
         font-style: normal;
@@ -631,33 +703,33 @@ body {
         font-size: 15px;
         line-height: 20px;
         /* or 143% */
-    
+
         text-align: center;
-    
+
         color: #7D7987;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .interncard {
-        
+
         width: 22vw;
         height: 354px;
-        
-    
+
+
         background: #FFFFFF;
         /* drop shadow */
-    
+
         box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
         border-radius: 20px;
     }
-    
+
     .internship .cardimg {
         width: 200.5px;
         height: 200.5px;
         padding-left: 0px;
     }
-    
+
     .internship .cardtext {
         font-family: Open Sans;
         font-style: normal;
@@ -665,22 +737,22 @@ body {
         font-size: 15px;
         line-height: 20px;
         /* or 139% */
-    
-    
+
+
         color: #000000;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .second {
         height: 753px;
     }
-    
+
     .internship .secondimg{
         width: 450.9px;
         height: 615px;
     }
-    
+
     .internship .secondh3 {
         font-family: Lato;
         font-style: normal;
@@ -688,14 +760,14 @@ body {
         font-size: 36px;
         line-height: 56px;
         /* identical to box height, or 156% */
-    
-    
+
+
         color: #084482;
         margin-left: 76px;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .secondhead {
         margin-top: 160px;
         margin-bottom: 78px;
@@ -705,11 +777,11 @@ body {
         font-size: 50px;
         line-height: 21px;
         /* identical to box height, or 42% */
-    
-    
+
+
         color: #084482;
     }
-    
+
     .internship .secondp{
         font-family: Open Sans;
         font-style: normal;
@@ -717,30 +789,30 @@ body {
         font-size: 17px;
         line-height: 26px;
         /* or 124% */
-    
+
         text-align: justify;
         margin-left: 80px;
     }
-    
+
     .footer {
         width: 100vw;
         height: 5%;
         position: absolute;
         bottom: 50px;
-        border: 2px solid #e5e5e5;   
+        border: 2px solid #e5e5e5;
     }
-    
+
     .footer .address {
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 11px;
         line-height: 29px;
-    
+
         color: #000000;
         margin-top: 59px;
     }
-    
+
     .footer .contact {
         font-family: Open Sans;
         font-style: normal;
@@ -750,13 +822,13 @@ body {
         margin-top: 59px;
         color: #000000;
     }
-    
+
     .footlogo {
         margin-top: 30px;
         width: 20%;
         height: 5%;
     }
-    
+
     .footer .footbtn{
         background: #00AEFF;
         border-radius: 15px;
@@ -772,7 +844,7 @@ body {
         float: left;
         mix-blend-mode: normal;
     }
-    
+
     .footer .fourth {
         position: absolute;
         top: 100%;
@@ -781,23 +853,23 @@ body {
         width: 100vw;
         background: #00AEFF;
     }
-    
+
     .footerp {
         position: absolute;
         width: 300px;
         height: 20px;
         left: 70px;
         top: 25px;
-    
+
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 11px;
         line-height: 20px;
-    
+
         color: #FFFFFF;
     }
-    
+
     .footerImg{
         position: absolute;
         width: 32px;
@@ -814,40 +886,40 @@ body {
     .footerImg4{
         left: 140px;
     }
-      
+
     .heroimg1 {
         position: absolute;
         left: 26.18%;
         right: -26.18%;
         top: 0%;
         bottom: 0%;
-    
+
         background: linear-gradient(176.9deg, #F3F7FF -10.48%, #E5F7FF 92.66%);
         transform: rotate(21.46deg);
         z-index: -1;
     }
-    
+
     .heroimg2 {
         position: absolute;
         width: 667px;
         height: 696px;
         left: 0px;
         top: 2700px;
-    
+
         background: #E5F7FF;
-    
+
         z-index: -2;
     }
 }
 
-@media (max-width: 960px){    
+@media (max-width: 960px){
     .header .line1 {
         position: absolute;
         width: 341px;
         height: 60px;
         left: 40px;
         top: 240px;
-    
+
         font-family: Open Sans;
         font-style: normal;
         font-weight: 600;
@@ -856,100 +928,100 @@ body {
         /* identical to box height, or 200% */
         color: #000000;
     }
-    
+
     .header .line2 {
         position: absolute;
         left: 5.56%;
         right: 50.25%;
         top: 7%;
         bottom: 88.63%;
-    
+
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 35px;
         line-height: 40px;
         /* or 112% */
-    
-    
+
+
         color: #084482;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .header .line3 {
         position: absolute;
         left: 5.56%;
         right: 44.31%;
         top: 10.98%;
         bottom: 70.24%;
-    
+
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 11px;
         line-height: 20px;
         /* identical to box height, or 152% */
-    
-    
+
+
         color: #000000;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .building {
         width: 100vw;
         height: 17%;
         left: 0px;
         top: 976px;
-    
+
         background: #E5F7FF;
     }
-    
+
     .building .buildinghead {
         position: absolute;
         left: 88px;
         right: 64.81%;
         top: 20.61%;
         bottom: 70.67%;
-    
+
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 35px;
         line-height: 40px;
         /* or 133% */
-    
+
         justify-content: center;
         color: #084482;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .building .buildingtext {
         position: absolute;
         width: 70%;
         height: 452px;
         left: 88px;
         top: 26%;
-    
+
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
         line-height: 20px;
         text-align: justify;
-    
+
         color: #000000;
     }
-    
+
     .internship {
-    
+
         width: 100vw;
         height: 48%;
-        
+
     }
-    
+
     .internship .internheading{
         font-family: Lato;
         font-style: normal;
@@ -959,12 +1031,12 @@ body {
         /* identical to box height, or 112% */
         margin-top: 34px;
         margin-bottom: 52px;
-    
+
         color: #084482;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .firsthead {
         font-family: Open Sans;
         font-style: normal;
@@ -972,33 +1044,33 @@ body {
         font-size: 15px;
         line-height: 20px;
         /* or 143% */
-    
+
         text-align: center;
-    
+
         color: #7D7987;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .interncard {
-        
+
         width: 22vw;
         height: 354px;
-        
-    
+
+
         background: #FFFFFF;
         /* drop shadow */
-    
+
         box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
         border-radius: 20px;
     }
-    
+
     .internship .cardimg {
         width: 200.5px;
         height: 200.5px;
         padding-left: 0px;
     }
-    
+
     .internship .cardtext {
         font-family: Open Sans;
         font-style: normal;
@@ -1006,22 +1078,22 @@ body {
         font-size: 15px;
         line-height: 20px;
         /* or 139% */
-    
-    
+
+
         color: #000000;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .second {
         height: 753px;
     }
-    
+
     .internship .secondimg{
         width: 200.9px;
         height: 400px;
     }
-    
+
     .internship .secondh3 {
         font-family: Lato;
         font-style: normal;
@@ -1029,14 +1101,14 @@ body {
         font-size: 24px;
         line-height: 40px;
         /* identical to box height, or 156% */
-    
-    
+
+
         color: #084482;
         margin-left: 76px;
-    
+
         mix-blend-mode: normal;
     }
-    
+
     .internship .secondhead {
         margin-top: 160px;
         margin-bottom: 78px;
@@ -1046,11 +1118,11 @@ body {
         font-size: 35px;
         line-height: 17px;
         /* identical to box height, or 42% */
-    
-    
+
+
         color: #084482;
     }
-    
+
     .internship .secondp{
         font-family: Open Sans;
         font-style: normal;
@@ -1058,30 +1130,30 @@ body {
         font-size: 15px;
         line-height: 16px;
         /* or 124%  */
-    
+
         text-align: justify;
         margin-left: 76px;
     }
-    
+
     .footer {
         width: 100vw;
         height: 5%;
         position: absolute;
         bottom: 50px;
-        border: 2px solid #e5e5e5;   
+        border: 2px solid #e5e5e5;
     }
-    
+
     .footer .address {
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 11px;
         line-height: 29px;
-    
+
         color: #000000;
         margin-top: 59px;
     }
-    
+
     .footer .contact {
         font-family: Open Sans;
         font-style: normal;
@@ -1091,13 +1163,13 @@ body {
         margin-top: 59px;
         color: #000000;
     }
-    
+
     .footlogo {
         margin-top: 30px;
         width: 20%;
         height: 5%;
     }
-    
+
     .footer .footbtn{
         background: #00AEFF;
         border-radius: 15px;
@@ -1113,7 +1185,7 @@ body {
         float: left;
         mix-blend-mode: normal;
     }
-    
+
     .footer .fourth {
         position: absolute;
         top: 100%;
@@ -1122,23 +1194,23 @@ body {
         width: 100vw;
         background: #00AEFF;
     }
-    
+
     .footerp {
         position: absolute;
         width: 300px;
         height: 20px;
         left: 70px;
         top: 25px;
-    
+
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 11px;
         line-height: 20px;
-    
+
         color: #FFFFFF;
     }
-    
+
     .footerImg{
         position: absolute;
         width: 32px;
@@ -1155,28 +1227,140 @@ body {
     .footerImg4{
         left: 140px;
     }
-      
+
     .heroimg1 {
         position: absolute;
         left: 26.18%;
         right: -26.18%;
         top: 0%;
         bottom: 0%;
-    
+
         background: linear-gradient(176.9deg, #F3F7FF -10.48%, #E5F7FF 92.66%);
         transform: rotate(21.46deg);
         z-index: -1;
     }
-    
+
     .heroimg2 {
         position: absolute;
         width: 667px;
         height: 696px;
         left: 0px;
         top: 2700px;
-    
+
         background: #E5F7FF;
-    
+
         z-index: -2;
     }
+}
+@media (max-width: 1600px){
+  body{
+    width: 100%;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 136px;
+  }
+  nav img{
+    width: calc((379/1600)*100vw);
+    height: calc((77/1600)*100vw);
+    left: calc((88/1600)*100vw);
+    top: 38px;
+  }
+  nav ul{
+    float: right;
+    margin-right: calc((117/1600)*100vw);
+    margin-top: 58px;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 calc((6/1600)*100vw);
+    display: inline-block;
+    line-height: calc((19/1600)*100vw);
+  }
+  nav ul li a{
+    text-decoration: none;
+    padding: 12px calc((12/1600)*100vw);
+
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc((15/1600)*100vw);
+    color: #1F1534;
+    opacity: 0.5;
+  }
+  nav ul li a.active{
+    border: 2px solid;
+    border-color: #00AEFF;
+    border-radius: 32px;
+  }
+  nav ul li a:hover{
+    color: white;
+    background: #00AEFF;
+    border-radius: 32px;
+  }
+}
+@media (max-width: 1000px) {
+  .toggle-button{
+    display: flex;
+    right: calc((77/1600)*100vw);
+    cursor: pointer;
+  }
+  .nav-toggle:checked ~ nav ul{
+    display: block;
+  }
+  nav ul{
+    float: none;
+    display: none;
+    margin-right: 117px;
+    margin-top: 150px;
+    width: 97vw;
+    background: white;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.15);
+    border-radius: 40px 40px 40px 40px;
+    height: 230px;
+    z-index: 1;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 6px;
+    display: flex;
+    line-height: 19px;
+    justify-content: space-between;
+    background: white;
+    width: 95vw;
+    border-radius: 40px 40px 40px 40px;
+  }
+  nav ul li a{
+    width: 95vw;
+    text-decoration: none;
+    padding: 12px 12px;
+    left: 0px;
+
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1F1534;
+    opacity: 1;
+  }
+  nav img{
+    width: 379px;
+    height: 77px;
+  }
+}
+@media (max-width: 900px){
+  nav{
+    height: 106px;
+  }
+  nav img{
+    width: 295px;
+    height: 60px;
+    top: 26px;
+  }
+  .toggle-button{
+    top: 40px;
+    width: 40px;
+    height: 31px;
+  }
 }

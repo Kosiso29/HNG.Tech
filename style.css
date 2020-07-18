@@ -80,10 +80,6 @@ nav ul li a:hover{
   color: white;
   background: #00AEFF;
   border-radius: 32px;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: .5s;
 }
 .heroImage{
   position: absolute;
