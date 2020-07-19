@@ -643,6 +643,20 @@ img{
   }
 }
 @media (max-width: 400px){
+  nav img{
+    top: 33px;
+    width: 200px;
+    height: 40px;
+  }
+  .toggle-button{
+    top: 40px;
+    width: 35px;
+    height: 26px;
+    right: calc((127/1600)*100vw);
+  }
+  nav{
+    height: 96px;
+  }
   h1{
     width: calc((886/1600)*100vw);
     height: calc((212/1600)*100vw);

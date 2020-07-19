@@ -231,13 +231,13 @@ nav ul li a:hover{
     height: calc((977/1600)*100vw);
   }
   .container h3{
-    width: calc((441/1600)*100vw);
+    width: calc((941/1600)*100vw);
     height: calc((60/1600)*100vw);
     left: calc((88/1600)*100vw);
     top: calc((270/1600)*100vw);
   }
   .container h1{
-    width: calc((732/1600)*100vw);
+    width: calc((932/1600)*100vw);
     height: calc((112/1600)*100vw);
     left: calc((88/1600)*100vw);
     top: calc((355/1600)*100vw);
@@ -275,4 +275,93 @@ nav ul li a:hover{
     height: calc((300/1600)*100vw);
     width: calc((300/1600)*100vw);
   }*/
+}
+@media (max-width: 1000px) {
+  .toggle-button{
+    display: flex;
+    right: calc((77/1600)*100vw);
+    cursor: pointer;
+  }
+  .nav-toggle:checked ~ nav ul{
+    display: block;
+  }
+  nav ul{
+    float: none;
+    display: none;
+    margin-right: 117px;
+    margin-top: 150px;
+    width: 97vw;
+    background: white;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.15);
+    border-radius: 40px 40px 40px 40px;
+    height: 230px;
+    z-index: 1;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 6px;
+    display: flex;
+    line-height: 19px;
+    justify-content: space-between;
+    background: white;
+    width: 95vw;
+    border-radius: 40px 40px 40px 40px;
+  }
+  nav ul li a{
+    width: 95vw;
+    text-decoration: none;
+    padding: 12px 12px;
+    left: 0px;
+
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1F1534;
+    opacity: 1;
+  }
+  nav img{
+    width: 379px;
+    height: 77px;
+  }
+}
+@media (max-width: 900px){
+  nav{
+    height: 106px;
+  }
+  nav img{
+    width: 295px;
+    height: 60px;
+    top: 26px;
+  }
+  .toggle-button{
+    top: 40px;
+    width: 40px;
+    height: 31px;
+  }
+  img{
+    top: 924px;
+  }
+}
+@media (max-width: 550px){
+  nav img{
+    width: 200px;
+    height: 50px;
+  }
+}
+@media (max-width: 400px){
+  nav img{
+    top: 33px;
+    width: 200px;
+    height: 40px;
+  }
+  .toggle-button{
+    top: 40px;
+    width: 35px;
+    height: 26px;
+    right: calc((127/1600)*100vw);
+  }
+  nav{
+    height: 96px;
+  }
 }
