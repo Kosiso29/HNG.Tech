@@ -1306,6 +1306,9 @@ nav ul li a:hover{
   .nav-toggle:checked ~ nav ul{
     display: block;
   }
+  nav{
+    border-radius: 0px 0px 20px 20px;
+  }
   nav ul{
     float: none;
     display: none;
@@ -1349,6 +1352,7 @@ nav ul li a:hover{
 @media (max-width: 900px){
   nav{
     height: 106px;
+    border-radius: 0px 0px 10px 10px;
   }
   nav img{
     width: 295px;

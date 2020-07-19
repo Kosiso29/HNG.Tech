@@ -159,25 +159,46 @@ nav ul li a:hover{
 
   color: #000000;
 }
-/*.grid{
+.card1{
   position: absolute;
-  height: 1421px;
-  width: 1400px;
-  left: 100px;
-  right: 100px;
-  top: 300px;
-  margin: 0 280px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  grid-column-gap: 14px;
-  overflow: hidden;
+  width: 195.14px;
+  height: 187px;
+  left: 311.9px;
+  top: 340px;
+  background: #C4C4C4;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  background-blend-mode: luminosity;
+  border-radius: 50%;
 }
-.card{
-  height: 300px;
-  width: 300px;
-  background: blue;
-}*/
+.card2{
+  left: 710.9px;
+}
+.card3{
+  left: 1090px;
+}
+.card4{
+  top: 793px;
+}
+.card5{
+  top: 793px;
+  left: 710.9px;
+}
+.card6{
+  top: 793px;
+  left: 1090px;
+}
+.card7{
+  top: 1251px;
+}
+.card8{
+  top: 1251px;
+  left: 710.9px;
+}
+.card9{
+  top: 1251px;
+  left: 1090px;
+}
 
 @media (max-width: 1600px){
   body{
@@ -263,18 +284,41 @@ nav ul li a:hover{
     font-size: calc((21/1600)*100vw);
     line-height: calc((29/1600)*100vw);
   }
-  /*.grid{
-    height: calc((1421/1600)*100vw);
-    width: 100%;
-    top: calc((300/1600)*100vw);
-    padding: 0 0.175vw;
-    grid-gap: calc((10/1600)*100vw);
-    grid-column-gap: calc((14/1600)*100vw);
+  .card1{
+    position: absolute;
+    width: calc((195/1600)*100vw);
+    height: calc((187/1600)*100vw);
+    left: calc((311/1600)*100vw);
+    top: calc((340/1600)*100vw);
   }
-  /*.card{
-    height: calc((300/1600)*100vw);
-    width: calc((300/1600)*100vw);
-  }*/
+  .card2{
+    left: calc((710/1600)*100vw);
+  }
+  .card3{
+    left: calc((1090/1600)*100vw);
+  }
+  .card4{
+    top: calc((793/1600)*100vw);
+  }
+  .card5{
+    top: calc((793/1600)*100vw);
+    left: calc((710/1600)*100vw);
+  }
+  .card6{
+    top: calc((793/1600)*100vw);
+    left: calc((1090/1600)*100vw);
+  }
+  .card7{
+    top: calc((1251/1600)*100vw);
+  }
+  .card8{
+    top: calc((1251/1600)*100vw);
+    left: calc((710/1600)*100vw);
+  }
+  .card9{
+    top: calc((1251/1600)*100vw);
+    left: calc((1090/1600)*100vw);
+  }
 }
 @media (max-width: 1000px) {
   .toggle-button{
@@ -284,6 +328,9 @@ nav ul li a:hover{
   }
   .nav-toggle:checked ~ nav ul{
     display: block;
+  }
+  nav{
+    border-radius: 0px 0px 20px 20px;
   }
   nav ul{
     float: none;
@@ -328,6 +375,7 @@ nav ul li a:hover{
 @media (max-width: 900px){
   nav{
     height: 106px;
+    border-radius: 0px 0px 10px 10px;
   }
   nav img{
     width: 295px;
